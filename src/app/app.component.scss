@@ -1,0 +1,68 @@
+.titleName {
+  color: #e65343;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo img {
+  max-height: 100%;
+  width: auto;
+}
+
+mat-icon-button {
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+  position: relative;
+}
+
+nav a.active::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  background-color: #c0392b;
+  box-shadow: 0 0 4px #c0392b;
+  border-radius: 2px;
+}
+
+.custom-menu {
+  background-color: #333;
+  color: #fff;
+}
+
+.mat-menu-item {
+  color: #fff;
+}
+
+.mat-menu-item:hover {
+  background-color: #555;
+}

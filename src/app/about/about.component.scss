@@ -1,0 +1,50 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 40px;
+  color: #333;
+}
+
+.profile {
+  flex: 1;
+  text-align: center;
+}
+
+.profile img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.bio {
+  flex: 2;
+  margin-left: 40px;
+}
+
+.bio h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #e65343;
+}
+
+.bio p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.bio a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e65343;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.bio a:hover {
+  background-color: #c0392b;
+}
